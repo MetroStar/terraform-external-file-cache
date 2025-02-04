@@ -1,5 +1,5 @@
-[![License](https://img.shields.io/github/license/plus3it/terraform-external-file-cache.svg)](LICENSE)
-[![Travis CI Build Status](https://travis-ci.org/plus3it/terraform-external-file-cache.svg?branch=master)](https://travis-ci.org/plus3it/terraform-external-file-cache)
+[![License](https://img.shields.io/github/license/MetroStar/terraform-external-file-cache.svg)](LICENSE)
+[![Travis CI Build Status](https://travis-ci.org/MetroStar/terraform-external-file-cache.svg?branch=master)](https://travis-ci.org/MetroStar/terraform-external-file-cache)
 [![pullreminders](https://pullreminders.com/badge.svg)](https://pullreminders.com?ref=badge)
 
 # terraform-external-file-cache
@@ -15,7 +15,7 @@ support arbitrary files.
 
 ```
 module "file_cache" {
-  source = "git::https://github.com/plus3it/terraform-external-file-cache"
+  source = "git::https://github.com/MetroStar/terraform-external-file-cache"
 
   uris = [
     "https://url/to/some/file1",
@@ -32,8 +32,8 @@ module "file_cache" {
 *   [Retrieve files and push them to S3 bucket][s3]
 *   [Retrieve files and provision them in an ec2 instance][ec2]
 
-[s3]: https://github.com/plus3it/terraform-external-file-cache/tree/master/examples/s3
-[ec2]: https://github.com/plus3it/terraform-external-file-cache/tree/master/examples/ec2
+[s3]: https://github.com/MetroStar/terraform-external-file-cache/tree/master/examples/s3
+[ec2]: https://github.com/MetroStar/terraform-external-file-cache/tree/master/examples/ec2
 
 ## Requirements
 
@@ -143,7 +143,7 @@ No requirements.
 
 ## Authors
 
-This module is managed by [Plus3 IT Systems](https://github.com/plus3it).
+This module is managed by [Plus3 IT Systems](https://github.com/MetroStar).
 
 ## License
 
